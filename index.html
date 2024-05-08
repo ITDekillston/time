@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1418</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        @font-face {
+            font-family: 'consolas';
+            src: url('consolas_only.ttf');
+        }
+        body {
+            background: url(./12312.png) center;
+            background-size: 100% auto;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            flex-direction: column;
+            color: white;
+            font-size: 50px;
+            font-family: 'consolas';
+            position: relative;
+        }
+        .buttons {
+            position: absolute;
+            left: 0px;
+            height: 100%;
+        }
+        body .a {
+            display: inline-block;
+            background-color: rgb(0, 0, 0, 50%);
+            padding: 0px 5% 0px 5%;
+            border-radius: 40px;
+            text-shadow: 0px 0px 20px black;
+        }
+        .time {
+            font-size: 400px;
+            margin-bottom: 100px;
+        }
+        .check {
+            font-size: 350px;
+        }
+        .buttons {
+            font-size: 30px;
+        }
+        .buttons .restart {
+            margin: 10px 0px 0px 10px;
+            text-align: center;
+            padding: 5px 10px 5px 10px;
+            border-radius: 10px;
+            background-color: rgb(231, 173, 0);
+            text-shadow: 0px 0px 5px black;
+            box-shadow: 0px 0px 10px black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="time a">00:00</div>
+<div class="check a">0</div>
+<div class="buttons">
+    <div class="restart">Рестарт</div>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
